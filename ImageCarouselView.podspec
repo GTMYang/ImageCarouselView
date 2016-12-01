@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.name         = "ImageCarouselView"
   s.version      = "1.0.0"
   s.summary      = "swift3 封装的图片轮播控件, 不依赖任何第三方库"
-  s.description  = "swift3 封装的图片轮播控件, 不依赖任何第三方库"
+  s.description  = "swift3 封装的图片轮播控件, 优点：代码简介，不依赖任何第三方库"
 
   s.homepage     = "https://github.com/GTMYang/ImageCarouselView"
 
