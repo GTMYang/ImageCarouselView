@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/GTMYang/ImageCarouselView"
 
-  s.license      = "type: 'MIT', file='LICENSE.md'"
+  s.license      = "Copyright (c) 2016年 GTMYang. All rights reserved."
   s.author       = { "GTMYang" => "17757128523@163.com" }
 
 
