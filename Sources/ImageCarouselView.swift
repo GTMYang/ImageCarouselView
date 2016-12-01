@@ -276,6 +276,7 @@ extension ImageCarouselView: UICollectionViewDelegate, UICollectionViewDataSourc
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImageCarouselViewItem", for: indexPath) as! ImageCarouselViewItem
+        cell.imageView.contentMode = self.pictureContentMode ?? UIViewContentMode.scaleAspectFill
         
         let data = imageArray[indexPath.row % imageArray.count]
         

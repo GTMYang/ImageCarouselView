@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		265BAC6B1DEFAD55005AEFC3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 265BAC6A1DEFAD55005AEFC3 /* LICENSE */; };
+		265BAC6D1DEFAF56005AEFC3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 265BAC6C1DEFAF56005AEFC3 /* README.md */; };
 		26EC55451DEEAE0400F475B3 /* ImageCarouselView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EC553B1DEEAE0400F475B3 /* ImageCarouselView.framework */; };
 		26EC55571DEEB4C100F475B3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26EC55561DEEB4C100F475B3 /* Info.plist */; };
 		26EC555B1DEEB59800F475B3 /* ImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EC555A1DEEB59800F475B3 /* ImageCarouselView.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		265BAC6A1DEFAD55005AEFC3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		265BAC6C1DEFAF56005AEFC3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26EC553B1DEEAE0400F475B3 /* ImageCarouselView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageCarouselView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26EC55441DEEAE0400F475B3 /* ImageCarouselViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageCarouselViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26EC554B1DEEAE0400F475B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		26EC55311DEEAE0400F475B3 = {
 			isa = PBXGroup;
 			children = (
+				265BAC6C1DEFAF56005AEFC3 /* README.md */,
+				265BAC6A1DEFAD55005AEFC3 /* LICENSE */,
 				26EC555E1DEEB86E00F475B3 /* ImageCarouselView.podspec */,
 				26EC55551DEEB4C100F475B3 /* Sources */,
 				26EC55481DEEAE0400F475B3 /* ImageCarouselViewTests */,
@@ -186,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				265BAC6B1DEFAD55005AEFC3 /* LICENSE in Resources */,
 				26EC55571DEEB4C100F475B3 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				265BAC6D1DEFAF56005AEFC3 /* README.md in Sources */,
 				26EC555B1DEEB59800F475B3 /* ImageCarouselView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +424,7 @@
 				26EC55511DEEAE0400F475B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26EC55521DEEAE0400F475B3 /* Build configuration list for PBXNativeTarget "ImageCarouselViewTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				26EC55541DEEAE0400F475B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
