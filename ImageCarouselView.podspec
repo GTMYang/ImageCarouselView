@@ -13,10 +13,12 @@ Pod::Spec.new do |s|
   s.author       = { "GTMYang" => "17757128523@163.com" }
 
 
-  s.source       = { :git => "https://github.com/GTMYang/ImageCarouselView.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/GTMYang/ImageCarouselView.git", :tag => s.version }
   s.source_files = "Sources/*.{h,swift}"
 
   s.ios.deployment_target = "8.0"
   s.frameworks = "UIKit"
+
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
 
 end
