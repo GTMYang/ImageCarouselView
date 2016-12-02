@@ -2,7 +2,7 @@
 ImageCarouselView 是一个用Swift3实现的图片轮播控件
 
 - 不依赖任何第三方类库
-- 代码简介，使用简单
+- 代码简洁，使用简单
 
 
 ## Requirements
