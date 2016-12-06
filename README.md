@@ -108,4 +108,4 @@ extension ViewController: ImageCarouselViewDelegate {
 
 ## License
 
-SnapKit is released under the MIT license. See LICENSE for details.
+ImageCarouselView is released under the MIT license. See LICENSE for details.
