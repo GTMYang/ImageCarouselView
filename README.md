@@ -5,6 +5,11 @@ ImageCarouselView 是一个用Swift3实现的图片轮播控件
 - 代码简洁，使用简单
 
 
+## Demo
+
+![alt tag](https://raw.githubusercontent.com/GTMYang/ImageCarouselView/master/Demo.gif)
+
+
 ## Requirements
 
 - iOS 8.0+ 
